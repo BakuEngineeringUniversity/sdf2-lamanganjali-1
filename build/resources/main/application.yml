@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: bookApiLast
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bookapp
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
